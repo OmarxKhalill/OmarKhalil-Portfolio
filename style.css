@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #162447;
+  color: #f8fafc;
+  height: 80px;
+  flex-wrap: wrap;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.links a {
+  text-decoration: none;
+  margin-right: 30px;
+  color: #f8fafc;
+  font-weight: bold;
+}
+
+.links li {
+  list-style: none;
+}
+
+.logo {
+  margin-right: auto;
+  margin-left: 50px;
+}
+
+.hero {
+  background: #0b1020;
+  color: #f8fafc;
+}
+
+.links a:hover {
+  color: #22d3ee;
+}
+
+.intro {
+  text-align: center;
+  padding-top: 50px;
+  height: 200px;
+}
+
+.intro h2,
+.intro p {
+  padding-top: 15px;
+}
+
+.intro p {
+  font-weight: bold;
+  color: #a1a1aa;
+}
+
+.intro h1 {
+  color: #f8fafc;
+}
+
+.intro h2 {
+  color: #a1a1aa;
+}
+
+.intro span {
+  color: #7c3aed;
+}
+
+.about {
+  background: #111a33;
+  color: #f8fafc;
+  padding: 40px 20px;
+}
+
+.about p {
+  color: #a1a1aa;
+}
+
+.about .keyword,
+.about strong {
+  color: #22d3ee;
+}
+
+a {
+  color: #f8fafc;
+}
+
+a:hover {
+  color: #22d3ee;
+}
+
+.about h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card {
+  border: 1px solid white;
+  background: #162447;
+  min-height: 90px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 10px 12px;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+  transform-origin: center;
+  will-change: transform;
+}
+
+.card h3 {
+  margin-top: 2px;
+  margin-left: 0;
+}
+
+.card p {
+  margin-top: 5px;
+  margin-left: 0;
+  font-weight: bold;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+.projects {
+  background: #111a33;
+  color: #f8fafc;
+  padding: 40px 20px;
+}
+
+.projects h2 {
+  margin-bottom: 30px;
+  text-align: center;
+  color: #f8fafc;
+}
+
+.card h3 {
+  color: white;
+}
+
+.card p {
+  color: #a1a1aa;
+}
+
+.contactintro {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contactcard {
+  border: 1px solid #334155;
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  background-color: #1e293b;
+}
+
+.contactcard p {
+  color: #e2e8f0;
+  margin: 6px 0;
+}
+
+.contactcard a {
+  color: #22d3ee;
+  text-decoration: none;
+}
+
+.contactcard a:hover {
+  color: #a78bfa;
+}
+
+.contact {
+  background-color: #111a33;
+  padding: 18px 0 24px;
+}
+
+.contactintro h3 {
+  color: #f8fafc;
+}
+
+.contactintro p {
+  color: #a1a1aa;
+  margin-top: 6px;
+}
+
+footer {
+  display: flex;
+  background: #0b1020;
+  height: 50px;
+  color: white;
+  font-weight: bold;
+  padding-top: 15px;
+  justify-content: center;
+  align-items: center;
+}
